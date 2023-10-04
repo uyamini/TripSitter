@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  London
 //
-//  Created by Yamini on 10/3/23.
+//  Created by Yamini on 10/3/22.
 //
 
 #import "AppDelegate.h"
@@ -16,6 +16,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:239.0/255.0 green:92.0/255.0 blue:47.0/255.0 alpha:1.0]];
+    
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+    
+    [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor]}];
+    
     return YES;
 }
 

@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		EC398B592ACCFA4C0008D5B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC398B582ACCFA4C0008D5B1 /* AppDelegate.m */; };
-		EC398B5C2ACCFA4C0008D5B1 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC398B5B2ACCFA4C0008D5B1 /* SceneDelegate.m */; };
-		EC398B5F2ACCFA4C0008D5B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC398B5E2ACCFA4C0008D5B1 /* ViewController.m */; };
 		EC398B622ACCFA4C0008D5B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC398B602ACCFA4C0008D5B1 /* Main.storyboard */; };
 		EC398B642ACCFA4E0008D5B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC398B632ACCFA4E0008D5B1 /* Assets.xcassets */; };
 		EC398B672ACCFA4E0008D5B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC398B652ACCFA4E0008D5B1 /* LaunchScreen.storyboard */; };
@@ -17,6 +15,10 @@
 		EC398B742ACCFA4F0008D5B1 /* LondonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC398B732ACCFA4F0008D5B1 /* LondonTests.m */; };
 		EC398B7E2ACCFA4F0008D5B1 /* LondonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC398B7D2ACCFA4F0008D5B1 /* LondonUITests.m */; };
 		EC398B802ACCFA4F0008D5B1 /* LondonUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC398B7F2ACCFA4F0008D5B1 /* LondonUITestsLaunchTests.m */; };
+		EC398B902ACCFE4F0008D5B1 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC398B8D2ACCFE4F0008D5B1 /* TableViewCell.m */; };
+		EC398B912ACCFE4F0008D5B1 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC398B8E2ACCFE4F0008D5B1 /* TableViewController.m */; };
+		EC398B942ACD05170008D5B1 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC398B932ACD05170008D5B1 /* DetailViewController.m */; };
+		EC398B972ACD0C210008D5B1 /* MapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = EC398B962ACD0C210008D5B1 /* MapPin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +42,6 @@
 		EC398B542ACCFA4C0008D5B1 /* London.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = London.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC398B572ACCFA4C0008D5B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EC398B582ACCFA4C0008D5B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EC398B5A2ACCFA4C0008D5B1 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		EC398B5B2ACCFA4C0008D5B1 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		EC398B5D2ACCFA4C0008D5B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EC398B5E2ACCFA4C0008D5B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EC398B612ACCFA4C0008D5B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC398B632ACCFA4E0008D5B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC398B662ACCFA4E0008D5B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +52,14 @@
 		EC398B792ACCFA4F0008D5B1 /* LondonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LondonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC398B7D2ACCFA4F0008D5B1 /* LondonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LondonUITests.m; sourceTree = "<group>"; };
 		EC398B7F2ACCFA4F0008D5B1 /* LondonUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LondonUITestsLaunchTests.m; sourceTree = "<group>"; };
+		EC398B8C2ACCFE4F0008D5B1 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		EC398B8D2ACCFE4F0008D5B1 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		EC398B8E2ACCFE4F0008D5B1 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		EC398B8F2ACCFE4F0008D5B1 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		EC398B922ACD05170008D5B1 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		EC398B932ACD05170008D5B1 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		EC398B952ACD0C210008D5B1 /* MapPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPin.h; sourceTree = "<group>"; };
+		EC398B962ACD0C210008D5B1 /* MapPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,10 +112,14 @@
 			children = (
 				EC398B572ACCFA4C0008D5B1 /* AppDelegate.h */,
 				EC398B582ACCFA4C0008D5B1 /* AppDelegate.m */,
-				EC398B5A2ACCFA4C0008D5B1 /* SceneDelegate.h */,
-				EC398B5B2ACCFA4C0008D5B1 /* SceneDelegate.m */,
-				EC398B5D2ACCFA4C0008D5B1 /* ViewController.h */,
-				EC398B5E2ACCFA4C0008D5B1 /* ViewController.m */,
+				EC398B8F2ACCFE4F0008D5B1 /* TableViewCell.h */,
+				EC398B8D2ACCFE4F0008D5B1 /* TableViewCell.m */,
+				EC398B8C2ACCFE4F0008D5B1 /* TableViewController.h */,
+				EC398B8E2ACCFE4F0008D5B1 /* TableViewController.m */,
+				EC398B922ACD05170008D5B1 /* DetailViewController.h */,
+				EC398B932ACD05170008D5B1 /* DetailViewController.m */,
+				EC398B952ACD0C210008D5B1 /* MapPin.h */,
+				EC398B962ACD0C210008D5B1 /* MapPin.m */,
 				EC398B602ACCFA4C0008D5B1 /* Main.storyboard */,
 				EC398B632ACCFA4E0008D5B1 /* Assets.xcassets */,
 				EC398B652ACCFA4E0008D5B1 /* LaunchScreen.storyboard */,
@@ -266,10 +276,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC398B5F2ACCFA4C0008D5B1 /* ViewController.m in Sources */,
 				EC398B592ACCFA4C0008D5B1 /* AppDelegate.m in Sources */,
+				EC398B902ACCFE4F0008D5B1 /* TableViewCell.m in Sources */,
 				EC398B6A2ACCFA4E0008D5B1 /* main.m in Sources */,
-				EC398B5C2ACCFA4C0008D5B1 /* SceneDelegate.m in Sources */,
+				EC398B972ACD0C210008D5B1 /* MapPin.m in Sources */,
+				EC398B912ACCFE4F0008D5B1 /* TableViewController.m in Sources */,
+				EC398B942ACD05170008D5B1 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +466,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -481,6 +494,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
